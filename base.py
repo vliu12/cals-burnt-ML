@@ -75,3 +75,7 @@ for i in range(5):
     val_preds = models[i].predict(X_val)
     print('Validation Error: ', mae(Y_val, val_preds))
     print()
+
+
+best_model = XGBRegressor()
+
